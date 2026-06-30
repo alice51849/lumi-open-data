@@ -1,0 +1,1220 @@
+{
+  "dataset": "chinese-zodiac-sexagenary-cycle",
+  "version": "2026-07-01",
+  "license": "CC-BY-4.0",
+  "maintainer": "Lumi Studio (@alice51849)",
+  "important_note": "Chinese zodiac years follow the lunisolar calendar, not January 1. Each row identifies the sexagenary year whose Lunar New Year begins in the listed Gregorian year; dates before Lunar New Year belong to the previous row.",
+  "algorithm": "Use 1924 as Jia-Zi Wood Rat. For year Y, n=(Y-1924) mod 60; heavenly_stem=n mod 10; earthly_branch/animal=n mod 12; element is determined by the heavenly stem pair (Jia/Yi Wood, Bing/Ding Fire, Wu/Ji Earth, Geng/Xin Metal, Ren/Gui Water).",
+  "entries": [
+    {
+      "gregorian_year_of_lunar_new_year": 1924,
+      "animal": "Rat",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Jia-Zi",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1925,
+      "animal": "Ox",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Yi-Chou",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1926,
+      "animal": "Tiger",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Bing-Yin",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1927,
+      "animal": "Rabbit",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Ding-Mao",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1928,
+      "animal": "Dragon",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Wu-Chen",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1929,
+      "animal": "Snake",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Ji-Si",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1930,
+      "animal": "Horse",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Geng-Wu",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1931,
+      "animal": "Goat",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Xin-Wei",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1932,
+      "animal": "Monkey",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Ren-Shen",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1933,
+      "animal": "Rooster",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "You",
+      "sexagenary_name": "Gui-You",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1934,
+      "animal": "Dog",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Jia-Xu",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1935,
+      "animal": "Pig",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Yi-Hai",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1936,
+      "animal": "Rat",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Bing-Zi",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1937,
+      "animal": "Ox",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Ding-Chou",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1938,
+      "animal": "Tiger",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Wu-Yin",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1939,
+      "animal": "Rabbit",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Ji-Mao",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1940,
+      "animal": "Dragon",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Geng-Chen",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1941,
+      "animal": "Snake",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Xin-Si",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1942,
+      "animal": "Horse",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Ren-Wu",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1943,
+      "animal": "Goat",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Gui-Wei",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1944,
+      "animal": "Monkey",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Jia-Shen",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1945,
+      "animal": "Rooster",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "You",
+      "sexagenary_name": "Yi-You",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1946,
+      "animal": "Dog",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Bing-Xu",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1947,
+      "animal": "Pig",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Ding-Hai",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1948,
+      "animal": "Rat",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Wu-Zi",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1949,
+      "animal": "Ox",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Ji-Chou",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1950,
+      "animal": "Tiger",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Geng-Yin",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1951,
+      "animal": "Rabbit",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Xin-Mao",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1952,
+      "animal": "Dragon",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Ren-Chen",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1953,
+      "animal": "Snake",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Gui-Si",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1954,
+      "animal": "Horse",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Jia-Wu",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1955,
+      "animal": "Goat",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Yi-Wei",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1956,
+      "animal": "Monkey",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Bing-Shen",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1957,
+      "animal": "Rooster",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "You",
+      "sexagenary_name": "Ding-You",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1958,
+      "animal": "Dog",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Wu-Xu",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1959,
+      "animal": "Pig",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Ji-Hai",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1960,
+      "animal": "Rat",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Geng-Zi",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1961,
+      "animal": "Ox",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Xin-Chou",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1962,
+      "animal": "Tiger",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Ren-Yin",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1963,
+      "animal": "Rabbit",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Gui-Mao",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1964,
+      "animal": "Dragon",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Jia-Chen",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1965,
+      "animal": "Snake",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Yi-Si",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1966,
+      "animal": "Horse",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Bing-Wu",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1967,
+      "animal": "Goat",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Ding-Wei",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1968,
+      "animal": "Monkey",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Wu-Shen",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1969,
+      "animal": "Rooster",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "You",
+      "sexagenary_name": "Ji-You",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1970,
+      "animal": "Dog",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Geng-Xu",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1971,
+      "animal": "Pig",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Xin-Hai",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1972,
+      "animal": "Rat",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Ren-Zi",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1973,
+      "animal": "Ox",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Gui-Chou",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1974,
+      "animal": "Tiger",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Jia-Yin",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1975,
+      "animal": "Rabbit",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Yi-Mao",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1976,
+      "animal": "Dragon",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Bing-Chen",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1977,
+      "animal": "Snake",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Ding-Si",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1978,
+      "animal": "Horse",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Wu-Wu",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1979,
+      "animal": "Goat",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Ji-Wei",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1980,
+      "animal": "Monkey",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Geng-Shen",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1981,
+      "animal": "Rooster",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "You",
+      "sexagenary_name": "Xin-You",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1982,
+      "animal": "Dog",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Ren-Xu",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1983,
+      "animal": "Pig",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Gui-Hai",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1984,
+      "animal": "Rat",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Jia-Zi",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1985,
+      "animal": "Ox",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Yi-Chou",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1986,
+      "animal": "Tiger",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Bing-Yin",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1987,
+      "animal": "Rabbit",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Ding-Mao",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1988,
+      "animal": "Dragon",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Wu-Chen",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1989,
+      "animal": "Snake",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Ji-Si",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1990,
+      "animal": "Horse",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Geng-Wu",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1991,
+      "animal": "Goat",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Xin-Wei",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1992,
+      "animal": "Monkey",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Ren-Shen",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1993,
+      "animal": "Rooster",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "You",
+      "sexagenary_name": "Gui-You",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1994,
+      "animal": "Dog",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Jia-Xu",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1995,
+      "animal": "Pig",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Yi-Hai",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1996,
+      "animal": "Rat",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Bing-Zi",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1997,
+      "animal": "Ox",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Ding-Chou",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1998,
+      "animal": "Tiger",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Wu-Yin",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 1999,
+      "animal": "Rabbit",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Ji-Mao",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2000,
+      "animal": "Dragon",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Geng-Chen",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2001,
+      "animal": "Snake",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Xin-Si",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2002,
+      "animal": "Horse",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Ren-Wu",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2003,
+      "animal": "Goat",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Gui-Wei",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2004,
+      "animal": "Monkey",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Jia-Shen",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2005,
+      "animal": "Rooster",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "You",
+      "sexagenary_name": "Yi-You",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2006,
+      "animal": "Dog",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Bing-Xu",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2007,
+      "animal": "Pig",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Ding-Hai",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2008,
+      "animal": "Rat",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Wu-Zi",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2009,
+      "animal": "Ox",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Ji-Chou",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2010,
+      "animal": "Tiger",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Geng-Yin",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2011,
+      "animal": "Rabbit",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Xin-Mao",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2012,
+      "animal": "Dragon",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Ren-Chen",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2013,
+      "animal": "Snake",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Gui-Si",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2014,
+      "animal": "Horse",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Jia-Wu",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2015,
+      "animal": "Goat",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Yi-Wei",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2016,
+      "animal": "Monkey",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Bing-Shen",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2017,
+      "animal": "Rooster",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "You",
+      "sexagenary_name": "Ding-You",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2018,
+      "animal": "Dog",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Wu-Xu",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2019,
+      "animal": "Pig",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Ji-Hai",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2020,
+      "animal": "Rat",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Geng-Zi",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2021,
+      "animal": "Ox",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Xin-Chou",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2022,
+      "animal": "Tiger",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Ren-Yin",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2023,
+      "animal": "Rabbit",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Gui-Mao",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2024,
+      "animal": "Dragon",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Jia-Chen",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2025,
+      "animal": "Snake",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Yi-Si",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2026,
+      "animal": "Horse",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Bing-Wu",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2027,
+      "animal": "Goat",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Ding-Wei",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2028,
+      "animal": "Monkey",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Wu-Shen",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2029,
+      "animal": "Rooster",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "You",
+      "sexagenary_name": "Ji-You",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2030,
+      "animal": "Dog",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Geng-Xu",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2031,
+      "animal": "Pig",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Xin-Hai",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2032,
+      "animal": "Rat",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Ren-Zi",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2033,
+      "animal": "Ox",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Chou",
+      "sexagenary_name": "Gui-Chou",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2034,
+      "animal": "Tiger",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Yin",
+      "sexagenary_name": "Jia-Yin",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2035,
+      "animal": "Rabbit",
+      "heavenly_stem": "Yi",
+      "earthly_branch": "Mao",
+      "sexagenary_name": "Yi-Mao",
+      "element": "Wood",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Wood"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2036,
+      "animal": "Dragon",
+      "heavenly_stem": "Bing",
+      "earthly_branch": "Chen",
+      "sexagenary_name": "Bing-Chen",
+      "element": "Fire",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2037,
+      "animal": "Snake",
+      "heavenly_stem": "Ding",
+      "earthly_branch": "Si",
+      "sexagenary_name": "Ding-Si",
+      "element": "Fire",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Fire"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2038,
+      "animal": "Horse",
+      "heavenly_stem": "Wu",
+      "earthly_branch": "Wu",
+      "sexagenary_name": "Wu-Wu",
+      "element": "Earth",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2039,
+      "animal": "Goat",
+      "heavenly_stem": "Ji",
+      "earthly_branch": "Wei",
+      "sexagenary_name": "Ji-Wei",
+      "element": "Earth",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Earth"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2040,
+      "animal": "Monkey",
+      "heavenly_stem": "Geng",
+      "earthly_branch": "Shen",
+      "sexagenary_name": "Geng-Shen",
+      "element": "Metal",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2041,
+      "animal": "Rooster",
+      "heavenly_stem": "Xin",
+      "earthly_branch": "You",
+      "sexagenary_name": "Xin-You",
+      "element": "Metal",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Metal"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2042,
+      "animal": "Dog",
+      "heavenly_stem": "Ren",
+      "earthly_branch": "Xu",
+      "sexagenary_name": "Ren-Xu",
+      "element": "Water",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2043,
+      "animal": "Pig",
+      "heavenly_stem": "Gui",
+      "earthly_branch": "Hai",
+      "sexagenary_name": "Gui-Hai",
+      "element": "Water",
+      "yin_yang": "Yin",
+      "stem_element_yin_yang": "Yin Water"
+    },
+    {
+      "gregorian_year_of_lunar_new_year": 2044,
+      "animal": "Rat",
+      "heavenly_stem": "Jia",
+      "earthly_branch": "Zi",
+      "sexagenary_name": "Jia-Zi",
+      "element": "Wood",
+      "yin_yang": "Yang",
+      "stem_element_yin_yang": "Yang Wood"
+    }
+  ]
+}

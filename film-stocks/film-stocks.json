@@ -1,0 +1,342 @@
+{
+  "dataset": "film-stocks-reference",
+  "version": "2026-07-01",
+  "license": "CC-BY-4.0",
+  "maintainer": "Lumi Studio (@alice51849)",
+  "important_note": "General reference for well-known photographic film stocks. Film availability, datasheets, and emulsion characteristics can change; verify with manufacturer documentation before making technical decisions.",
+  "fields": [
+    "name",
+    "type",
+    "iso",
+    "format_notes",
+    "look_characteristics",
+    "source_url"
+  ],
+  "entries": [
+    {
+      "name": "Kodak Portra 160",
+      "type": "color negative",
+      "iso": 160,
+      "format_notes": "Available in multiple still-photo formats depending on market.",
+      "look_characteristics": [
+        "very fine grain",
+        "natural skin tones",
+        "soft contrast",
+        "wide exposure latitude"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/color/portra-160"
+    },
+    {
+      "name": "Kodak Portra 400",
+      "type": "color negative",
+      "iso": 400,
+      "format_notes": "Professional C-41 film widely used for portrait and wedding work.",
+      "look_characteristics": [
+        "natural skin tones",
+        "fine grain for ISO 400",
+        "moderate saturation",
+        "wide exposure latitude"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/color/portra-400"
+    },
+    {
+      "name": "Kodak Portra 800",
+      "type": "color negative",
+      "iso": 800,
+      "format_notes": "High-speed professional C-41 film.",
+      "look_characteristics": [
+        "natural skin tones",
+        "more visible grain than Portra 400",
+        "useful in low light",
+        "wide exposure latitude"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/color/portra-800"
+    },
+    {
+      "name": "Kodak Ektar 100",
+      "type": "color negative",
+      "iso": 100,
+      "format_notes": "C-41 color negative film.",
+      "look_characteristics": [
+        "extremely fine grain",
+        "high saturation",
+        "high sharpness",
+        "strong landscape/travel palette"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/color/ektar-100"
+    },
+    {
+      "name": "Kodak Gold 200",
+      "type": "color negative",
+      "iso": 200,
+      "format_notes": "Consumer C-41 film.",
+      "look_characteristics": [
+        "warm palette",
+        "moderate grain",
+        "medium-high contrast",
+        "classic everyday snapshot look"
+      ],
+      "source_url": "https://www.kodak.com/en/motion/product/camera-films/gold-200"
+    },
+    {
+      "name": "Kodak UltraMax 400",
+      "type": "color negative",
+      "iso": 400,
+      "format_notes": "Consumer C-41 film.",
+      "look_characteristics": [
+        "vivid color",
+        "flexible general-purpose speed",
+        "moderate visible grain",
+        "consumer snapshot look"
+      ],
+      "source_url": "https://www.kodak.com/en/motion/product/camera-films/ultramax-400"
+    },
+    {
+      "name": "Kodak ColorPlus 200",
+      "type": "color negative",
+      "iso": 200,
+      "format_notes": "Consumer C-41 film; availability varies by region.",
+      "look_characteristics": [
+        "warm color",
+        "noticeable but pleasant grain",
+        "moderate contrast",
+        "budget-friendly daylight look"
+      ],
+      "source_url": "https://www.kodak.com/en/consumer/product/camera-films/colorplus-200"
+    },
+    {
+      "name": "Kodak Pro Image 100",
+      "type": "color negative",
+      "iso": 100,
+      "format_notes": "Professional C-41 film intended for warm climates and portrait/general use.",
+      "look_characteristics": [
+        "natural skin tones",
+        "good color accuracy",
+        "fine grain",
+        "moderate contrast"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/color/pro-image-100"
+    },
+    {
+      "name": "CineStill 50D",
+      "type": "color negative",
+      "iso": 50,
+      "format_notes": "Daylight-balanced still-photo film based on motion-picture stock, processed in C-41.",
+      "look_characteristics": [
+        "low grain",
+        "cinematic color",
+        "daylight balance",
+        "possible halation around highlights"
+      ],
+      "source_url": "https://cinestillfilm.com/products/50daylight-50d-35mm-color-negative-film"
+    },
+    {
+      "name": "CineStill 400D",
+      "type": "color negative",
+      "iso": 400,
+      "format_notes": "Daylight-balanced C-41 color negative film.",
+      "look_characteristics": [
+        "soft cinematic palette",
+        "wide exposure latitude",
+        "controlled contrast",
+        "halation around strong highlights"
+      ],
+      "source_url": "https://cinestillfilm.com/products/400dynamic-35mm-film"
+    },
+    {
+      "name": "CineStill 800T",
+      "type": "color negative",
+      "iso": 800,
+      "format_notes": "Tungsten-balanced C-41 film popular for night and artificial light.",
+      "look_characteristics": [
+        "cinematic tungsten balance",
+        "strong halation on highlights",
+        "suited to night scenes",
+        "visible grain"
+      ],
+      "source_url": "https://cinestillfilm.com/products/800tungsten-c41-35mm-color-negative-film"
+    },
+    {
+      "name": "Fujifilm Fujichrome Velvia 50",
+      "type": "color reversal/slide",
+      "iso": 50,
+      "format_notes": "E-6 slide film; availability varies by region.",
+      "look_characteristics": [
+        "very high saturation",
+        "high contrast",
+        "fine grain",
+        "landscape-oriented palette"
+      ],
+      "source_url": "https://asset.fujifilm.com/master/emea/files/2020-10/1e2cfcc832f3d9cda6d83b2b0bb79b7c/films_velvia-50_datasheet_01.pdf"
+    },
+    {
+      "name": "Fujifilm Fujichrome Provia 100F",
+      "type": "color reversal/slide",
+      "iso": 100,
+      "format_notes": "E-6 professional slide film; availability varies by region.",
+      "look_characteristics": [
+        "fine grain",
+        "neutral color",
+        "moderate saturation for slide film",
+        "high sharpness"
+      ],
+      "source_url": "https://asset.fujifilm.com/master/emea/files/2020-10/407ff87329a7cb1db681ff9f83c5224c/films_provia-100f_datasheet_01.pdf"
+    },
+    {
+      "name": "Kodak Tri-X 400",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Classic panchromatic B&W film.",
+      "look_characteristics": [
+        "classic grain",
+        "strong tonal separation",
+        "push-process friendly",
+        "documentary/photojournalism look"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/bw/tri-x-400"
+    },
+    {
+      "name": "Kodak T-Max 100",
+      "type": "black and white negative",
+      "iso": 100,
+      "format_notes": "Tabular-grain panchromatic B&W film.",
+      "look_characteristics": [
+        "very fine grain",
+        "high sharpness",
+        "smooth tonal scale",
+        "clean modern B&W look"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/bw/t-max-100"
+    },
+    {
+      "name": "Kodak T-Max 400",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Tabular-grain panchromatic B&W film.",
+      "look_characteristics": [
+        "fine grain for ISO 400",
+        "high sharpness",
+        "wide exposure latitude",
+        "modern B&W tonality"
+      ],
+      "source_url": "https://www.kodakprofessional.com/photographers/film/bw/t-max-400"
+    },
+    {
+      "name": "Ilford HP5 Plus",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Panchromatic B&W film available in 35mm, 120, and sheet formats.",
+      "look_characteristics": [
+        "classic grain",
+        "medium contrast",
+        "wide exposure latitude",
+        "push-process friendly"
+      ],
+      "source_url": "https://www.ilfordphoto.com/hp5-plus-35mm"
+    },
+    {
+      "name": "Ilford FP4 Plus",
+      "type": "black and white negative",
+      "iso": 125,
+      "format_notes": "Medium-speed panchromatic B&W film.",
+      "look_characteristics": [
+        "fine grain",
+        "medium contrast",
+        "high sharpness",
+        "traditional tonal range"
+      ],
+      "source_url": "https://www.ilfordphoto.com/fp4-plus-35mm"
+    },
+    {
+      "name": "Ilford Delta 100 Professional",
+      "type": "black and white negative",
+      "iso": 100,
+      "format_notes": "Tabular-grain professional B&W film.",
+      "look_characteristics": [
+        "very fine grain",
+        "high sharpness",
+        "clean tonality",
+        "modern B&W look"
+      ],
+      "source_url": "https://www.ilfordphoto.com/delta-100-35mm"
+    },
+    {
+      "name": "Ilford Delta 400 Professional",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Tabular-grain professional B&W film.",
+      "look_characteristics": [
+        "fine grain",
+        "high sharpness",
+        "balanced contrast",
+        "versatile ISO 400 speed"
+      ],
+      "source_url": "https://www.ilfordphoto.com/delta-400-35mm"
+    },
+    {
+      "name": "Ilford Pan F Plus",
+      "type": "black and white negative",
+      "iso": 50,
+      "format_notes": "Slow, very fine-grain panchromatic B&W film.",
+      "look_characteristics": [
+        "very fine grain",
+        "high resolution",
+        "higher contrast potential",
+        "suited to bright light/studio"
+      ],
+      "source_url": "https://www.ilfordphoto.com/pan-f-plus-35mm"
+    },
+    {
+      "name": "Kentmere Pan 400",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Affordable panchromatic B&W film made by Harman/Ilford.",
+      "look_characteristics": [
+        "moderate grain",
+        "good latitude",
+        "classic B&W contrast",
+        "budget-friendly"
+      ],
+      "source_url": "https://www.kentmere.co.uk/kentmere-pan-400"
+    },
+    {
+      "name": "Foma Fomapan 100 Classic",
+      "type": "black and white negative",
+      "iso": 100,
+      "format_notes": "Traditional panchromatic B&W film.",
+      "look_characteristics": [
+        "fine grain",
+        "classic tonality",
+        "moderate contrast",
+        "traditional cubic-grain look"
+      ],
+      "source_url": "https://www.foma.cz/en/catalogue-fomapan-100-classic-detail-273"
+    },
+    {
+      "name": "Foma Fomapan 400 Action",
+      "type": "black and white negative",
+      "iso": 400,
+      "format_notes": "Traditional panchromatic B&W film.",
+      "look_characteristics": [
+        "visible grain",
+        "classic contrast",
+        "good for action/low light",
+        "traditional B&W rendering"
+      ],
+      "source_url": "https://www.foma.cz/en/catalogue-fomapan-400-action-detail-275"
+    },
+    {
+      "name": "Fujifilm Neopan Acros 100 II",
+      "type": "black and white negative",
+      "iso": 100,
+      "format_notes": "Orthopanchromatic-style B&W film with very fine grain; availability varies by market.",
+      "look_characteristics": [
+        "very fine grain",
+        "excellent reciprocity characteristics",
+        "smooth tonal gradation",
+        "clean detailed look"
+      ],
+      "source_url": "https://asset.fujifilm.com/master/emea/files/2020-10/4f32f3d68c6872a3660162288e7b67f4/acros_100ii_datasheet_01.pdf"
+    }
+  ]
+}
