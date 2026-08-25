@@ -1,0 +1,42 @@
+{
+  "upload_type": "dataset",
+  "title": "lumi-open-data: reference datasets for passport photo specifications, TOEIC score approximation, the Chinese sexagenary cycle, and film stocks",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Lumi Studio"
+    }
+  ],
+  "description": "<p>A set of four small, hand-checked, source-linked reference datasets published as machine-readable JSON. Each dataset ships a <code>version</code>, a <code>license</code>, an <code>important_note</code> stating its limitations, and per-row or per-dataset source URLs so every value can be traced back to a primary source.</p><p><strong>Contents of this release (counts verified against the JSON files):</strong></p><ul><li><strong>Passport photo specifications</strong> (<code>passport-photo-specs/passport-photo-specs.json</code>) &mdash; 28 country entries, each with photo width and height in millimetres, an inch equivalent where an inch standard is commonly stated (otherwise null), background requirement, notes, and an official <code>source_url</code>. This is a 28-country selection, not a worldwide or exhaustive listing.</li><li><strong>TOEIC raw-to-scaled approximation</strong> (<code>toeic-score-conversion/toeic-raw-to-scaled.json</code>) &mdash; 101 Listening rows and 101 Reading rows covering 0&ndash;100 raw correct answers, plus a 21-point anchor curve. <strong>These are approximations for practice-test estimation only.</strong> ETS equates official TOEIC Listening &amp; Reading scores per test form and does not publish a single universal raw-correct to scaled-score conversion table, so this dataset is not an official conversion and must not be presented as one. The values are produced by linear interpolation through anchor points in 5-point scaled-score increments, and the same transparent curve is used for both sections specifically to avoid implying a form-specific official equating.</li><li><strong>Chinese zodiac sexagenary cycle</strong> (<code>chinese-zodiac/chinese-zodiac.json</code>) &mdash; 121 entries covering the years 1924&ndash;2044, with animal, heavenly stem, earthly branch, sexagenary name, five-element, and yin/yang. Rows are keyed by the Gregorian year in which the Lunar New Year of that lunisolar year falls; dates falling before Lunar New Year belong to the previous row. Derived deterministically from the standard 60-year cycle anchored at 1924 = Jia-Zi Wood Rat.</li><li><strong>Film stocks reference</strong> (<code>film-stocks/film-stocks.json</code>) &mdash; 25 entries for well-known photographic film stocks, with type, ISO, format notes, descriptive look characteristics, and a manufacturer or datasheet <code>source_url</code>.</li></ul><p><strong>Limitations.</strong> These datasets are reference material, not authoritative or regulatory sources. Passport and ID photo rules change and can differ by embassy, applicant age, and printed versus online submission channel; verify against the linked official source before relying on them for an application. TOEIC figures are estimates for practice use only. Film availability, datasheets, and emulsion characteristics change over time; consult manufacturer documentation for technical exposure, processing, or archival decisions.</p><p><strong>Licensing.</strong> The JSON datasets are released under CC-BY-4.0 (see <code>DATA_LICENSE.md</code>). The accompanying code examples and documentation in the repository are released under the MIT License (see <code>LICENSE</code>). Please attribute as: &quot;Lumi Studio, lumi-open-data, CC-BY-4.0&quot; and preserve the <code>source_url</code> values when reusing the data.</p>",
+  "notes": "Dual-licensed: JSON datasets under CC-BY-4.0 (DATA_LICENSE.md); code examples and documentation under the MIT License (LICENSE). The Zenodo license field records CC-BY-4.0 because the datasets are the substance of this deposit.",
+  "keywords": [
+    "passport photo",
+    "ID photo specifications",
+    "TOEIC",
+    "score conversion",
+    "Chinese zodiac",
+    "sexagenary cycle",
+    "ganzhi",
+    "film stocks",
+    "analog photography",
+    "open data",
+    "reference data",
+    "JSON dataset",
+    "machine-readable"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alice51849/lumi-open-data",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://alice51849.github.io/ios-app-guide/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ]
+}
