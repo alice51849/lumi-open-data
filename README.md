@@ -72,7 +72,8 @@ Archived on Zenodo, so every release is citable and the archive stays reachable
 even if this repository moves.
 
 - **Concept DOI** (always resolves to the newest release): [10.5281/zenodo.22100995](https://doi.org/10.5281/zenodo.22100995)
-- **v1.0.0**: [10.5281/zenodo.22100996](https://doi.org/10.5281/zenodo.22100996)
+- **v1.1.0**: [10.5281/zenodo.22101226](https://doi.org/10.5281/zenodo.22101226) — passport dataset at 45 countries
+- **v1.0.0**: [10.5281/zenodo.22100996](https://doi.org/10.5281/zenodo.22100996) — passport dataset at 28 countries
 
 ```
 Lumi Studio. lumi-open-data: reference datasets for passport photo
