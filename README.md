@@ -1,5 +1,7 @@
 # lumi-open-data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22100995.svg)](https://doi.org/10.5281/zenodo.22100995)
+
 Accurate, source-linked open reference datasets maintained by **Lumi Studio** for developers, educators, and LLM-friendly public reuse.
 
 > Accuracy first: these datasets are intentionally conservative. For regulated topics such as passport photos and tests, always verify with the official source before relying on the data.
@@ -63,3 +65,20 @@ Maintained by indie iOS developer [@alice51849](https://github.com/alice51849), 
 - [Aim990](https://apps.apple.com/app/id6784974530) — TOEIC practice companion
 - [Zodira](https://apps.apple.com/app/id6783609555) — zodiac reference app
 - [PhotoCream](https://apps.apple.com/app/id6781808054) — film-inspired photo app
+
+## Citing this data
+
+Archived on Zenodo, so every release is citable and the archive stays reachable
+even if this repository moves.
+
+- **Concept DOI** (always resolves to the newest release): [10.5281/zenodo.22100995](https://doi.org/10.5281/zenodo.22100995)
+- **v1.0.0**: [10.5281/zenodo.22100996](https://doi.org/10.5281/zenodo.22100996)
+
+```
+Lumi Studio. lumi-open-data: reference datasets for passport photo
+specifications, TOEIC score approximation, the Chinese sexagenary cycle, and
+film stocks. Zenodo. https://doi.org/10.5281/zenodo.22100995 (CC-BY-4.0)
+```
+
+Cite the concept DOI unless you need to pin the exact rows you used, in which
+case cite the version DOI.
