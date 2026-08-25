@@ -1,6 +1,6 @@
 {
   "dataset": "passport-photo-specs",
-  "version": "2026-07-01",
+  "version": "2026-08-26",
   "license": "CC-BY-4.0",
   "maintainer": "Lumi Studio (@alice51849)",
   "important_note": "Passport/ID photo rules change and can vary by application channel, embassy, age, or online vs printed submission. Use this dataset as a reference only and verify with the official source_url before submitting an application.",
@@ -12,38 +12,31 @@
     "inches",
     "background",
     "notes",
-    "source_url"
+    "source_url",
+    "verified_on"
   ],
   "entries": [
     {
-      "country": "United States",
-      "iso2": "US",
-      "width_mm": 51,
-      "height_mm": 51,
-      "inches": "2 x 2",
-      "background": "Plain white or off-white",
-      "notes": "For U.S. passport applications; head must be 1–1 3/8 in (25–35 mm) from chin to top of head.",
-      "source_url": "https://travel.state.gov/content/travel/en/passports/how-apply/photos.html"
+      "country": "Argentina",
+      "iso2": "AR",
+      "width_mm": 40,
+      "height_mm": 40,
+      "inches": null,
+      "background": "Uniform plain white, matte or semi-matte",
+      "notes": "One current 4 cm x 4 cm colour photo, head fully uncovered (no hat, glasses or piercings), is required for passport applications at Argentine consulates abroad. Inside Argentina the image is captured digitally by RENAPER during the appointment.",
+      "source_url": "https://esuiz.cancilleria.gob.ar/node/1674",
+      "verified_on": "2026-08-26"
     },
     {
-      "country": "United Kingdom",
-      "iso2": "GB",
+      "country": "Austria",
+      "iso2": "AT",
       "width_mm": 35,
       "height_mm": 45,
       "inches": null,
-      "background": "Plain light grey or cream",
-      "notes": "Printed passport photos are 35 x 45 mm; digital submissions have separate pixel rules.",
-      "source_url": "https://www.gov.uk/photos-for-passports"
-    },
-    {
-      "country": "Canada",
-      "iso2": "CA",
-      "width_mm": 50,
-      "height_mm": 70,
-      "inches": "2 x 2 3/4",
-      "background": "Plain white or light-coloured",
-      "notes": "Canadian passport photos must show face height 31–36 mm from chin to crown.",
-      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html"
+      "background": "Plain light-coloured, ideally grey",
+      "notes": "\"Das Foto muss 35 mm breit und 45 mm hoch sein.\" The head from chin to crown should take up about two thirds of the image and the eye distance must be at least 8 mm. Background must be plain and light, with enough contrast to face and hair.",
+      "source_url": "https://www.bmi.gv.at/607/passbild_kriterien.html",
+      "verified_on": "2026-08-26"
     },
     {
       "country": "Australia",
@@ -53,97 +46,8 @@
       "inches": null,
       "background": "Plain white or light grey",
       "notes": "Official printed-photo range is 35–40 mm wide by 45–50 mm high; 35 x 45 mm is the lower bound/common crop. Verify before printing.",
-      "source_url": "https://www.passports.gov.au/passport-care/photo-guidelines"
-    },
-    {
-      "country": "Japan",
-      "iso2": "JP",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain, no shadows or patterns",
-      "notes": "Japanese passport photo; head height and top margin requirements also apply.",
-      "source_url": "https://www.mofa.go.jp/ca/fna/page22e_000921.html"
-    },
-    {
-      "country": "China",
-      "iso2": "CN",
-      "width_mm": 33,
-      "height_mm": 48,
-      "inches": null,
-      "background": "White or light blue, depending on application channel",
-      "notes": "Chinese passport/exit-entry document photo standard commonly specifies 33 x 48 mm. Verify the current local consular requirement.",
-      "source_url": "https://cs.mfa.gov.cn/zggmzhw/hzlxz/"
-    },
-    {
-      "country": "India",
-      "iso2": "IN",
-      "width_mm": 51,
-      "height_mm": 51,
-      "inches": "2 x 2",
-      "background": "Plain white or light-coloured",
-      "notes": "Passport Seva photo guidance uses a 2 x 2 inch photo with full front view and neutral expression.",
-      "source_url": "https://portal2.passportindia.gov.in/AppOnlineProject/online/photograph"
-    },
-    {
-      "country": "Germany",
-      "iso2": "DE",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain light-coloured, preferably neutral grey",
-      "notes": "German biometric passport photo; face height normally 32–36 mm.",
-      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/moderne-verwaltung/fotomustertafel.html"
-    },
-    {
-      "country": "France",
-      "iso2": "FR",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain light background; white usually not accepted for French ID photos",
-      "notes": "French official identity photo format: 35 x 45 mm, face height 32–36 mm.",
-      "source_url": "https://www.service-public.fr/particuliers/vosdroits/F10619"
-    },
-    {
-      "country": "Italy",
-      "iso2": "IT",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain, light-coloured",
-      "notes": "Italian passport/ID photo format follows ICAO-style 35 x 45 mm biometric photo guidance.",
-      "source_url": "https://www.poliziadistato.it/articolo/1087"
-    },
-    {
-      "country": "Spain",
-      "iso2": "ES",
-      "width_mm": 26,
-      "height_mm": 32,
-      "inches": null,
-      "background": "Plain white",
-      "notes": "Spanish passport/DNI photo is commonly specified as 32 x 26 mm (height x width).",
-      "source_url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/pasaporte/"
-    },
-    {
-      "country": "Netherlands",
-      "iso2": "NL",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Light grey, pale blue, or white; even and uniform",
-      "notes": "Dutch passport photo matrix specifies 35 x 45 mm with detailed head-size rules.",
-      "source_url": "https://www.government.nl/topics/identification-documents/photograph-requirements-for-passports-and-id-cards"
-    },
-    {
-      "country": "Switzerland",
-      "iso2": "CH",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain, light and shadow-free",
-      "notes": "Swiss passport/ID photo format is 35 x 45 mm.",
-      "source_url": "https://www.fedpol.admin.ch/fedpol/en/home/pass---identitaetskarte/pass/passfoto.html"
+      "source_url": "https://www.passports.gov.au/passport-care/photo-guidelines",
+      "verified_on": null
     },
     {
       "country": "Belgium",
@@ -153,137 +57,74 @@
       "inches": null,
       "background": "Uniform light background",
       "notes": "Belgian passport/ID photos follow ICAO biometric 35 x 45 mm format.",
-      "source_url": "https://diplomatie.belgium.be/en/belgians-abroad/passport/photo-requirements"
+      "source_url": "https://diplomatie.belgium.be/en/belgians-abroad/passport/photo-requirements",
+      "verified_on": null
     },
     {
-      "country": "Poland",
-      "iso2": "PL",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain light background",
-      "notes": "Polish passport photo: 35 x 45 mm, taken within the last 6 months.",
-      "source_url": "https://www.gov.pl/web/gov/passport-photo"
-    },
-    {
-      "country": "Finland",
-      "iso2": "FI",
-      "width_mm": 36,
-      "height_mm": 47,
-      "inches": null,
-      "background": "Plain light grey",
-      "notes": "Finland uses a 36 x 47 mm passport photo, with strict face-position rules.",
-      "source_url": "https://poliisi.fi/en/passport-photo-instructions"
-    },
-    {
-      "country": "Greece",
-      "iso2": "GR",
-      "width_mm": 40,
-      "height_mm": 60,
-      "inches": null,
-      "background": "Plain white or off-white",
-      "notes": "Greek passport photos are 40 x 60 mm under Hellenic Police passport-photo specifications.",
-      "source_url": "https://www.passport.gov.gr/en/diadikasia-ekdoshs/documents/specificationsphoto.html"
-    },
-    {
-      "country": "Turkey",
-      "iso2": "TR",
+      "country": "Brazil",
+      "iso2": "BR",
       "width_mm": 50,
-      "height_mm": 60,
-      "inches": null,
-      "background": "Plain white",
-      "notes": "Turkish biometric passport photos are 50 x 60 mm.",
-      "source_url": "https://randevu.nvi.gov.tr/pages/applicationdocuments"
-    },
-    {
-      "country": "South Korea",
-      "iso2": "KR",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain white",
-      "notes": "Korean passport photo: 35 x 45 mm, face length 32–36 mm, taken within 6 months.",
-      "source_url": "https://www.passport.go.kr/home/kor/contents.do?menuPos=32"
-    },
-    {
-      "country": "Taiwan",
-      "iso2": "TW",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain white",
-      "notes": "Taiwan passport photo: 2-inch style, 35 x 45 mm with head-size rules.",
-      "source_url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html"
-    },
-    {
-      "country": "Hong Kong",
-      "iso2": "HK",
-      "width_mm": 40,
       "height_mm": 50,
-      "inches": null,
-      "background": "Plain white",
-      "notes": "Hong Kong SAR passport photo: 40 x 50 mm; digital photo requirements differ by channel.",
-      "source_url": "https://www.immd.gov.hk/eng/service/travel_document/apply_for_hksar_passport.html"
+      "inches": "2 x 2",
+      "background": "White",
+      "notes": "Consular passport applications: colour photo taken in the last 6 months, 2 in x 2 in (approximately 5 cm x 5 cm), front-facing against a white background, neutral expression, no reflections or shadows. In Brazil the photo is taken at the Federal Police counter at the time of the appointment for applicants aged 3 and over.",
+      "source_url": "https://www.gov.br/mre/pt-br/consulado-chicago/servicos-consulares/passaporte/fotografia-para-passaporte",
+      "verified_on": "2026-08-26"
     },
     {
-      "country": "Singapore",
-      "iso2": "SG",
+      "country": "Canada",
+      "iso2": "CA",
+      "width_mm": 50,
+      "height_mm": 70,
+      "inches": "2 x 2 3/4",
+      "background": "Plain white or light-coloured",
+      "notes": "Canadian passport photos must show face height 31–36 mm from chin to crown.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html",
+      "verified_on": null
+    },
+    {
+      "country": "Switzerland",
+      "iso2": "CH",
       "width_mm": 35,
       "height_mm": 45,
       "inches": null,
-      "background": "Plain white",
-      "notes": "Singapore passport photo: 35 x 45 mm, matt/semi-matt finish for printed photos.",
-      "source_url": "https://www.ica.gov.sg/documents/passport/apply"
+      "background": "Plain, light and shadow-free",
+      "notes": "Swiss passport/ID photo format is 35 x 45 mm.",
+      "source_url": "https://www.fedpol.admin.ch/fedpol/en/home/pass---identitaetskarte/pass/passfoto.html",
+      "verified_on": null
     },
     {
-      "country": "Malaysia",
-      "iso2": "MY",
-      "width_mm": 35,
-      "height_mm": 50,
+      "country": "China",
+      "iso2": "CN",
+      "width_mm": 33,
+      "height_mm": 48,
       "inches": null,
-      "background": "Plain white",
-      "notes": "Malaysia passport photo format is widely specified as 35 x 50 mm; many applications now capture photos at the counter. Verify current office/embassy rules.",
-      "source_url": "https://www.imi.gov.my/index.php/en/main-services/passport/malaysian-international-passport/"
+      "background": "White or light blue, depending on application channel",
+      "notes": "Chinese passport/exit-entry document photo standard commonly specifies 33 x 48 mm. Verify the current local consular requirement.",
+      "source_url": "https://cs.mfa.gov.cn/zggmzhw/hzlxz/",
+      "verified_on": null
     },
     {
-      "country": "New Zealand",
-      "iso2": "NZ",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain light-coloured (not white)",
-      "notes": "New Zealand printed passport photos are 35 x 45 mm; online photos use pixel/file rules.",
-      "source_url": "https://www.passports.govt.nz/passport-photos/passport-photo-requirements/"
-    },
-    {
-      "country": "Ireland",
-      "iso2": "IE",
+      "country": "Czechia",
+      "iso2": "CZ",
       "width_mm": 35,
       "height_mm": 45,
       "inches": null,
-      "background": "Plain white or light grey/cream",
-      "notes": "Irish printed passport photos are generally 35–38 mm wide by 45–50 mm high; 35 x 45 mm is the lower-bound/common crop. Verify before printing.",
-      "source_url": "https://www.ireland.ie/en/dfa/passports/photo-guidelines/"
+      "background": "White to light blue, or light grey",
+      "notes": "Rectangular 35 x 45 mm standing on the short side, corners r = 3 mm +/- 0.5 mm, thickness 0.13-0.27 mm. Face height from the root of the nose/eyes to the chin at least 13 mm; at least 2 mm between the top of the head and the top edge. Black and white or colour. No retouching.",
+      "source_url": "https://archiv.mv.gov.cz/clanek/fotografie.aspx",
+      "verified_on": "2026-08-26"
     },
     {
-      "country": "Norway",
-      "iso2": "NO",
+      "country": "Germany",
+      "iso2": "DE",
       "width_mm": 35,
       "height_mm": 45,
       "inches": null,
-      "background": "Light, plain background",
-      "notes": "Norwegian passport/ID photo standard follows the 35 x 45 mm biometric format.",
-      "source_url": "https://www.politiet.no/en/services/passport-and-id-card/photo-requirements/"
-    },
-    {
-      "country": "Sweden",
-      "iso2": "SE",
-      "width_mm": 35,
-      "height_mm": 45,
-      "inches": null,
-      "background": "Plain light background",
-      "notes": "Swedish passport photos are normally captured at the passport office; 35 x 45 mm is the biometric print format used where external photos are accepted.",
-      "source_url": "https://polisen.se/en/services-and-permits/passport-and-national-id-card/"
+      "background": "Plain light-coloured, preferably neutral grey",
+      "notes": "German biometric passport photo; face height normally 32–36 mm.",
+      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/moderne-verwaltung/fotomustertafel.html",
+      "verified_on": null
     },
     {
       "country": "Denmark",
@@ -293,7 +134,382 @@
       "inches": null,
       "background": "Plain light background",
       "notes": "Danish passport photo format: 35 x 45 mm, head height 30–36 mm.",
-      "source_url": "https://um.dk/en/travel-and-residence/passport/photo-requirements"
+      "source_url": "https://um.dk/en/travel-and-residence/passport/photo-requirements",
+      "verified_on": null
+    },
+    {
+      "country": "Estonia",
+      "iso2": "EE",
+      "width_mm": null,
+      "height_mm": null,
+      "inches": null,
+      "background": "Light and of a single colour, without patterns or extraneous objects",
+      "notes": "Estonia publishes a digital specification rather than a print size: the document photo must be at least 1300 x 1600 pixels and 1-5 MB. Scanned photos and photos of a computer or phone screen are not accepted. Photos are normally taken in a Police and Border Guard Board service-office booth or at a photographer's studio.",
+      "source_url": "https://www.politsei.ee/en/requirement-and-instructions-for-the-document-photo",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Spain",
+      "iso2": "ES",
+      "width_mm": 26,
+      "height_mm": 32,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Spanish passport/DNI photo is commonly specified as 32 x 26 mm (height x width).",
+      "source_url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/pasaporte/",
+      "verified_on": null
+    },
+    {
+      "country": "Finland",
+      "iso2": "FI",
+      "width_mm": 36,
+      "height_mm": 47,
+      "inches": null,
+      "background": "Plain light grey",
+      "notes": "Finland uses a 36 x 47 mm passport photo, with strict face-position rules.",
+      "source_url": "https://poliisi.fi/en/passport-photo-instructions",
+      "verified_on": null
+    },
+    {
+      "country": "France",
+      "iso2": "FR",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain light background; white usually not accepted for French ID photos",
+      "notes": "French official identity photo format: 35 x 45 mm, face height 32–36 mm.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/F10619",
+      "verified_on": null
+    },
+    {
+      "country": "United Kingdom",
+      "iso2": "GB",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain light grey or cream",
+      "notes": "Printed passport photos are 35 x 45 mm; digital submissions have separate pixel rules.",
+      "source_url": "https://www.gov.uk/photos-for-passports",
+      "verified_on": null
+    },
+    {
+      "country": "Greece",
+      "iso2": "GR",
+      "width_mm": 40,
+      "height_mm": 60,
+      "inches": null,
+      "background": "Plain white or off-white",
+      "notes": "Greek passport photos are 40 x 60 mm under Hellenic Police passport-photo specifications.",
+      "source_url": "https://www.passport.gov.gr/en/diadikasia-ekdoshs/documents/specificationsphoto.html",
+      "verified_on": null
+    },
+    {
+      "country": "Hong Kong",
+      "iso2": "HK",
+      "width_mm": 40,
+      "height_mm": 50,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Hong Kong SAR passport photo: 40 x 50 mm; digital photo requirements differ by channel.",
+      "source_url": "https://www.immd.gov.hk/eng/service/travel_document/apply_for_hksar_passport.html",
+      "verified_on": null
+    },
+    {
+      "country": "Croatia",
+      "iso2": "HR",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Uniform light-coloured, no patterns, with sufficient contrast to face and hair",
+      "notes": "Pravilnik (NN 4/2010) art. 4: one 35 x 45 mm photo is attached to a passport application; travel documents issued under international treaties take two 35 x 45 mm photos and a putni list takes two 30 x 35 mm photos. Eye distance must be at least 8 mm (10 mm optimal). Since NN 27/2021 no photo is needed if a passport or electronic ID card with a photo was issued in the last five years.",
+      "source_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_01_4_104.html",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Ireland",
+      "iso2": "IE",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain white or light grey/cream",
+      "notes": "Irish printed passport photos are generally 35–38 mm wide by 45–50 mm high; 35 x 45 mm is the lower-bound/common crop. Verify before printing.",
+      "source_url": "https://www.ireland.ie/en/dfa/passports/photo-guidelines/",
+      "verified_on": null
+    },
+    {
+      "country": "India",
+      "iso2": "IN",
+      "width_mm": 51,
+      "height_mm": 51,
+      "inches": "2 x 2",
+      "background": "Plain white or light-coloured",
+      "notes": "Passport Seva photo guidance uses a 2 x 2 inch photo with full front view and neutral expression.",
+      "source_url": "https://portal2.passportindia.gov.in/AppOnlineProject/online/photograph",
+      "verified_on": null
+    },
+    {
+      "country": "Iceland",
+      "iso2": "IS",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Light grey, neutral and shadow-free (not white)",
+      "notes": "Regulation 560/2009: an emergency passport application takes two photos on photo paper 35 x 45 mm, no older than six months. Art. 10 sets the image conditions - evenly lit, background light grey (\"bakgrunnur ljosgrar\"), neutral and without shadows, no dark or reflective glasses, no headwear except on religious or health grounds. For ordinary passports the image is normally captured by Registers Iceland or supplied digitally by a photographer.",
+      "source_url": "https://island.is/reglugerdir/nr/0560-2009",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Italy",
+      "iso2": "IT",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain, light-coloured",
+      "notes": "Italian passport/ID photo format follows ICAO-style 35 x 45 mm biometric photo guidance.",
+      "source_url": "https://www.poliziadistato.it/articolo/1087",
+      "verified_on": null
+    },
+    {
+      "country": "Japan",
+      "iso2": "JP",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain, no shadows or patterns",
+      "notes": "Japanese passport photo; head height and top margin requirements also apply.",
+      "source_url": "https://www.mofa.go.jp/ca/fna/page22e_000921.html",
+      "verified_on": null
+    },
+    {
+      "country": "Kenya",
+      "iso2": "KE",
+      "width_mm": 55,
+      "height_mm": 55,
+      "inches": null,
+      "background": "White",
+      "notes": "\"It should be 5.5cm * 5.5cm (207px * 207px).\" Close-up of the head and top of the shoulders so that the face takes up 70-80% of the photograph; colour, sharp focus, natural skin tone, looking directly at the camera, not older than 6 months.",
+      "source_url": "https://immigration.ecitizen.go.ke/index.php?id=9",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "South Korea",
+      "iso2": "KR",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Korean passport photo: 35 x 45 mm, face length 32–36 mm, taken within 6 months.",
+      "source_url": "https://www.passport.go.kr/home/kor/contents.do?menuPos=32",
+      "verified_on": null
+    },
+    {
+      "country": "Lithuania",
+      "iso2": "LT",
+      "width_mm": 40,
+      "height_mm": 60,
+      "inches": null,
+      "background": "Very light, single-colour and even (darker if the person's hair is very light)",
+      "notes": "Nominal print size is 40 x 60 mm with at least three identical photos per sheet; the issuing authority trims the photo to a 35 x 45 mm rectangle. On the trimmed photo the face from chin to crown must occupy 70-80% of the height (31-36 mm), with 1-3 mm from the top edge to the crown and 8-11 mm from the chin to the bottom edge.",
+      "source_url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.197394/",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Latvia",
+      "iso2": "LV",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Light background",
+      "notes": "Cabinet regulation No. 134, annex 11: the photograph must be 1-3 mm larger than 35 x 45 mm, on smooth glossy or semi-matte photo paper, with no white corner. Face from the chin line to the hairline must take up 70-80% of the image height; the photo must be no older than three months. A printed photo is submitted only in the listed cases (for example when the office cannot capture the image).",
+      "source_url": "https://likumi.lv/ta/id/244720-personu-apliecinosu-dokumentu-noteikumi",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Malta",
+      "iso2": "MT",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Light grey or cream",
+      "notes": "Two identical colour photographs, taken within the last month, 45 millimetres high x 35 millimetres wide - applicants are told not to trim the photographs themselves. Photographs must be printed professionally and free from shadows, reflection and red-eye.",
+      "source_url": "https://identita.gov.mt/wp-content/uploads/2023/10/Biometric-photos.pdf",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Mexico",
+      "iso2": "MX",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "White",
+      "notes": "Official SRE example sheet for Mexican passport applications: 45 mm x 35 mm, white background, front-facing, no smiling, no glasses, whole head visible, taken no more than 30 days before the application. Grey or stained backgrounds are listed as rejected.",
+      "source_url": "https://consulmex.sre.gob.mx/frankfurt/images/stories/pdf/fotosejemp.pdf",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Malaysia",
+      "iso2": "MY",
+      "width_mm": 35,
+      "height_mm": 50,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Malaysia passport photo format is widely specified as 35 x 50 mm; many applications now capture photos at the counter. Verify current office/embassy rules.",
+      "source_url": "https://www.imi.gov.my/index.php/en/main-services/passport/malaysian-international-passport/",
+      "verified_on": null
+    },
+    {
+      "country": "Netherlands",
+      "iso2": "NL",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Light grey, pale blue, or white; even and uniform",
+      "notes": "Dutch passport photo matrix specifies 35 x 45 mm with detailed head-size rules.",
+      "source_url": "https://www.government.nl/topics/identification-documents/photograph-requirements-for-passports-and-id-cards",
+      "verified_on": null
+    },
+    {
+      "country": "Norway",
+      "iso2": "NO",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Light, plain background",
+      "notes": "Norwegian passport/ID photo standard follows the 35 x 45 mm biometric format.",
+      "source_url": "https://www.politiet.no/en/services/passport-and-id-card/photo-requirements/",
+      "verified_on": null
+    },
+    {
+      "country": "New Zealand",
+      "iso2": "NZ",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain light-coloured (not white)",
+      "notes": "New Zealand printed passport photos are 35 x 45 mm; online photos use pixel/file rules.",
+      "source_url": "https://www.passports.govt.nz/passport-photos/passport-photo-requirements/",
+      "verified_on": null
+    },
+    {
+      "country": "Poland",
+      "iso2": "PL",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain light background",
+      "notes": "Polish passport photo: 35 x 45 mm, taken within the last 6 months.",
+      "source_url": "https://www.gov.pl/web/gov/passport-photo",
+      "verified_on": null
+    },
+    {
+      "country": "Romania",
+      "iso2": "RO",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Clear, neutral and light-coloured",
+      "notes": "Two identical colour photographs of 3,5 x 4,5 cm, required only where the holder is not present when the application is filed. The photo must show the current appearance, be taken from the front, and the background must allow the outline of the head to be identified. Otherwise the image is captured at the passport office.",
+      "source_url": "https://pasapoarte.mai.gov.ro/documente-necesare-pentru-pasaport-simplu-temporar/",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Serbia",
+      "iso2": "RS",
+      "width_mm": 50,
+      "height_mm": 50,
+      "inches": null,
+      "background": "Uniform grey",
+      "notes": "A 50 x 50 mm \"en face\" photograph on a uniform grey background may be attached to a biometric passport application, but submitting one is not mandatory - the image is otherwise captured at the counter.",
+      "source_url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/putne%20isprave/biometrijski%20pasos",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Sweden",
+      "iso2": "SE",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain light background",
+      "notes": "Swedish passport photos are normally captured at the passport office; 35 x 45 mm is the biometric print format used where external photos are accepted.",
+      "source_url": "https://polisen.se/en/services-and-permits/passport-and-national-id-card/",
+      "verified_on": null
+    },
+    {
+      "country": "Singapore",
+      "iso2": "SG",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Singapore passport photo: 35 x 45 mm, matt/semi-matt finish for printed photos.",
+      "source_url": "https://www.ica.gov.sg/documents/passport/apply",
+      "verified_on": null
+    },
+    {
+      "country": "Slovenia",
+      "iso2": "SI",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain background suitable for biometric capture; no colour is named in the cited source",
+      "notes": "One photograph 3,5 x 4,5 cm. The face from crown to chin must cover 70% of the photograph. The source requires suitable background, lighting and resolution, evenly lit face without reflections or shadows, neutral expression and closed mouth, but does not name a background colour.",
+      "source_url": "https://e-uprava.gov.si/si/podrocja/osebni-dokumenti-potrdila-selitev/osebni-dokumenti/potni-list/pogosta-vprasanja/kaksna-fotografija-je-ustrezna-za-izdajo-potnega-lista.html",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "Turkey",
+      "iso2": "TR",
+      "width_mm": 50,
+      "height_mm": 60,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Turkish biometric passport photos are 50 x 60 mm.",
+      "source_url": "https://randevu.nvi.gov.tr/pages/applicationdocuments",
+      "verified_on": null
+    },
+    {
+      "country": "Taiwan",
+      "iso2": "TW",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "Plain white",
+      "notes": "Taiwan passport photo: 2-inch style, 35 x 45 mm with head-size rules.",
+      "source_url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+      "verified_on": null
+    },
+    {
+      "country": "United States",
+      "iso2": "US",
+      "width_mm": 51,
+      "height_mm": 51,
+      "inches": "2 x 2",
+      "background": "Plain white or off-white",
+      "notes": "For U.S. passport applications; head must be 1–1 3/8 in (25–35 mm) from chin to top of head.",
+      "source_url": "https://travel.state.gov/content/travel/en/passports/how-apply/photos.html",
+      "verified_on": null
+    },
+    {
+      "country": "Vietnam",
+      "iso2": "VN",
+      "width_mm": 40,
+      "height_mm": 60,
+      "inches": null,
+      "background": "White",
+      "notes": "Standard \"4 x 6\" photo on a white background, taken within the last 6 months, front view with both ears showing, bare head, no tinted glasses. The face should occupy about 75% of the photo area; minimum 300 dpi for the digital file.",
+      "source_url": "https://dichvucong.bocongan.gov.vn/public/linkto/tintuc_chitiet/241",
+      "verified_on": "2026-08-26"
+    },
+    {
+      "country": "South Africa",
+      "iso2": "ZA",
+      "width_mm": 35,
+      "height_mm": 45,
+      "inches": null,
+      "background": "White",
+      "notes": "Identical colour photos taken with a white background, 35 mm in width and 45 mm in height (called \"immigration size\" in Canada), a close-up of the head and top of the shoulders so the face takes up 70-80% of the photograph. The number of copies varies by application type; Home Affairs offices using the live-capture system may not require printed photos.",
+      "source_url": "https://dirco.gov.za/ottawa/regular-passport/",
+      "verified_on": "2026-08-26"
     }
   ]
 }
