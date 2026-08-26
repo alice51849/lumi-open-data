@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22100995.svg)](https://doi.org/10.5281/zenodo.22100995)
 
-Accurate, source-linked open reference datasets maintained by **Lumi Studio** for developers, educators, and LLM-friendly public reuse.
+Source-linked open reference datasets maintained by **Lumi Studio** for developers, educators, and LLM-friendly public reuse.
 
 > Accuracy first: these datasets are intentionally conservative. For regulated topics such as passport photos and tests, always verify with the official source before relying on the data.
 
@@ -10,7 +10,7 @@ Accurate, source-linked open reference datasets maintained by **Lumi Studio** fo
 
 | Dataset | File | Entries | Good for |
 |---|---:|---:|---|
-| Passport photo specifications | `passport-photo-specs/passport-photo-specs.json` | 28 | ID/passport photo apps, form helpers, travel tools |
+| Passport photo specifications | `passport-photo-specs/passport-photo-specs.json` | 45 | ID/passport photo apps, form helpers, travel tools |
 | TOEIC raw-to-scaled approximation | `toeic-score-conversion/toeic-raw-to-scaled.json` | 101 Listening + 101 Reading rows | Practice-test score estimation |
 | Chinese zodiac sexagenary cycle | `chinese-zodiac/chinese-zodiac.json` | 121 | Zodiac apps, calendars, education |
 | Film stocks reference | `film-stocks/film-stocks.json` | 25 | Film simulation, photography education, metadata tools |

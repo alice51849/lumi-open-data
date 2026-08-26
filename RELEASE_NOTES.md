@@ -25,7 +25,7 @@ nobody made.
 ## Anomalies are recorded as written, not normalised
 
 Iceland is light grey, not white. Serbia is grey and the photo is not
-mandatory. Malta accepts light grey or beige. Czechia accepts white, light
+mandatory. Malta accepts light grey or cream. Czechia accepts white, light
 blue or light grey. Latvia requires the print to be 1–3 mm larger than
 35×45. Lithuania prints 40×60 and the office trims it. Estonia publishes
 only a pixel specification, so its millimetre fields are null with the pixel
