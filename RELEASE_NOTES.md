@@ -1,7 +1,18 @@
-# lumi-open-data v1.1.0
+# lumi-open-data v1.1.1
 
-The passport photo dataset grows from 28 to **45 countries and territories**.
-The other three datasets are unchanged from v1.0.0.
+A packaging correction on top of v1.1.0. The data is byte-identical; three
+documentation defects that v1.1.0 archived are fixed.
+
+- The README table still said the passport dataset held 28 entries after it
+  grew to 45, so the v1.1.0 archive contains a README contradicting the JSON
+  beside it.
+- `.zenodo.json` carried an internal maintenance to-do in its `notes` field.
+  Zenodo publishes that field on the record page and passes it to DataCite,
+  so it has been on display since v1.0.0. It now lives in `MAINTENANCE.md`.
+- Malta is "cream" in the official PDF, not "beige".
+
+The passport dataset still holds the 45 countries and territories introduced
+in v1.1.0; the other three datasets are unchanged from v1.0.0.
 
 ## What changed
 

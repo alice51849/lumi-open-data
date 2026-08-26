@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "lumi-open-data: reference datasets for passport photo specifications, TOEIC score approximation, the Chinese sexagenary cycle, and film stocks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "language": "eng",
   "access_right": "open",
   "license": "cc-by-4.0",
